@@ -1,5 +1,10 @@
 ## Shipping Box App
 
+## Author 
+Akhilesh Dinesh
+
+## Description
+
 A small single-page application (SPA) that calculates shipping costs for boxes sent from India to different destinations.  
 It was built as a weekend exercise to practice **React + TypeScript + Tailwind CSS + Zustand** and to demonstrate local state management, validation, and component design.
 
@@ -49,7 +54,7 @@ It was built as a weekend exercise to practice **React + TypeScript + Tailwind C
 
 ---
 
-## ⚖️ Tradeoffs & Design Decisions
+## Tradeoffs & Design Decisions
 
 - **Persistence Layer:**  
   Instead of wiring up Node.js/Express or Firebase, I used `localStorage`. Quick to set up, but not scalable. In real-world use, this would be replaced by an API and database.
@@ -70,7 +75,7 @@ It was built as a weekend exercise to practice **React + TypeScript + Tailwind C
 
 ```bash
 # clone the repo
-git clone <your-repo-url>
+git clone https://github.com/akhilesh-dinesh/shipping-box-app
 cd shipping-box-app
 
 # install dependencies
